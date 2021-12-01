@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/*************HEADER***********/
+
+.fondGris{
+    background: rgb(56, 56, 56);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+.aide{
+    display: flex;
+}
+
+.haut{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+    
+}
+
+.devis,
+.conseils,
+.compte,
+.panier{
+    display: flex;
+}
+
+.imgDevis,
+.imgConseils,
+.imgCompte,
+.imgPanier{
+    width: 50px;
+    height: 50px;
+}
+
+
+/****menu****/
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(206, 206, 206);
+    height: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/********CAROUSSEL***********/
+#caroussel{
+    display: flex;
+    margin: 30px 200px;
+}
+
+.arrow{
+    display: flex;
+    height: 20px;
+}
+
+.arrowLeft,
+.arrowRight{
+    background: rgb(219, 0, 121);
+    color: white;
+    width: 20px;
+    text-align: center;
+    
+}
+
+.arrowLeft{
+    position: relative;
+    top: 200px;
+    right: 920px;
+}
+
+.arrowRight{
+    position: relative;
+    top: 200px;
+    right: 181px;
+}
+
+.boite{
+    margin: 0 auto;   
+}
+
+.slide img{
+    width: 100%;
+    display: none;
+}
+
+img.active{
+    display: block;
+    animation: fade 0.8s;
+}
+
+@keyframes fade{
+
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
+/********CLASS VOIR********/
+.carrelages,
+.parquet{
+    background: rgb(219, 0, 121);
+    text-align: center;
+    color: white;
+}
+
+.carrelages{
+    margin: 0 0 30px 0;
+}
+
+/************ID GARANTIE***************/
+#garantie{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.pay, .casse{
+    margin-left: 500px;
+    
+}
+
+/*******SECTION PRODUITS***********/
+#nosProduits{
+    display: flex;
+}
+
+ 
